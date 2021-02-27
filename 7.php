@@ -1,10 +1,9 @@
 <?php
 #ex7 trace the code & discuss of each statement of value of x and y
 
-$x = 3 ;
-$y=$x++;
-$y+= ++$x;
- 
+$x = 3;
+$y=$x++; // y= 3
+$y+= ++$x;  //y= 7
 if ($y == 7) {
      $x++;
      echo $x ."<br>";
