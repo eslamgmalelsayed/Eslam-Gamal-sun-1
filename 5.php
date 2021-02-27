@@ -1,10 +1,11 @@
 <?php
 #ex5 write a script that removes any duplicates from an array.
 
+###################### can't solve ######################
 $nums = [10,30,60,'ahmed','ahmed',10];
-$newNums = [];
-for($i = 1; $i <=6; $i++){
-    if( $nums[$i] == $newNums){
+$newNums = [0];
+for($i = 1; $i <count($nums); $i++){
+    if( $newNums == $nums[$i]){
          $newNums= $nums[$i];
     }
 }
